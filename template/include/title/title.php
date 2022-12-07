@@ -11,7 +11,7 @@ if($url == '/help/'){
 <?php endif;?>
 
 <?php if ($url == '/codewars/1/'){
-  $title = '1';
+  $title = '07.12.2022';
 } elseif ($url == '/codewars/2/') {
   $title = '2';
 } elseif ($url == '/codewars/3/') {
