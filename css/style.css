@@ -1,0 +1,27 @@
+h1 {
+  font-size: 27px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.header span{
+  display: inline-block;
+  padding: 0 15px;
+}
+
+ul.menulist li+li{
+  margin-top: 5px;
+}
+
+.task-wrap{
+  padding: 10px 0;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  border-bottom: 0.5px solid #C1C1C1;
+}
