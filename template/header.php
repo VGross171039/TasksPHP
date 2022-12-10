@@ -37,9 +37,4 @@
       <div class="container">
         <?php if($url != '/'):?>
         <div class="col-100">
-          <?php if($url != '/help/'):?>
-          <div class="task-wrap">
-            <?php require_once 'tasks/index.php';?>
-          </div>
-          <?php endif;?>
           <?php endif;?>

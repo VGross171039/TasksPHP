@@ -1,1 +1,0 @@
-<a href="tasks/description.txt">Description</a>

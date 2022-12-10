@@ -1,28 +1,32 @@
-1.
+1. 
+
+Make a function that returns the value multiplied by 50 and increased by 6. If the value entered is a string it should return "Error".
+
+2. 
+
+In this kata you will have to write a function that takes litres and price_per_litre (in dollar) as arguments.
+
+Purchases of 2 or more litres get a discount of 5 cents per litre, purchases of 4 or more litres get a discount of 10 cents per litre, and so on every two litres, up to a maximum discount of 25 cents per litre. But total discount per litre cannot be more than 25 cents. Return the total cost rounded to 2 decimal places. Also you can guess that there will not be negative or non-numeric inputs.
+
+3.
 
 Create a function named divisors/Divisors that takes an integer n > 1 and returns an array with all of the integer's divisors(except for 1 and the number itself), from smallest to largest. If the number is prime return the string '(integer) is prime' (null in C#) (use Either String a in Haskell and Result<Vec<u32>, String> in Rust).
 
+Samples:
 divisors(12); // => [2, 3, 4, 6]
 divisors(25); // => [5]
 divisors(13); // => '13 is prime'
 
-====================
+4.
 
-2. 
-
-Task
 You will be given an array of numbers. You have to sort the odd numbers in ascending order while leaving the even numbers at their original positions.
-
-Задача
-Вам будет предоставлен массив чисел. Вы должны отсортировать нечетные числа в порядке возрастания, оставив четные числа на их первоначальных позициях.
 
 Examples
 [7, 1]  =>  [1, 7]
 [5, 8, 6, 3, 4]  =>  [3, 8, 6, 5, 4]
 [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  =>  [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]
 
-
-3.
+5.
 
 Find The Parity Outlier
 You are given an array (which will have a length of at least 3, but could be very large) containing integers. The array is either entirely comprised of odd integers or entirely comprised of even integers except for a single integer N. Write a method that takes the array as an argument and returns this "outlier" N.
@@ -34,7 +38,7 @@ Should return: 11 (the only odd number)
 [160, 3, 1719, 19, 11, 13, -21]
 Should return: 160 (the only even number)
 
-4.
+6.
 
 Sum of odd numbers
 Given the triangle of consecutive odd numbers:
@@ -47,11 +51,11 @@ Given the triangle of consecutive odd numbers:
 ...
 Calculate the sum of the numbers in the nth row of this triangle (starting at index 1) e.g.: (Input --> Output)
 
+Examples
 1 -->  1
 2 --> 3 + 5 = 8
 
-
-5. 
+7.
 
 Is a number prime?
 Define a function that takes an integer argument and returns a logical value true or false depending on if the integer is a prime.
